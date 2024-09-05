@@ -2,7 +2,7 @@
 const button = document.querySelector('.boton-contenedor button');
 
 button.addEventListener('click', function(event) {
-    event.stopPropagation(); // Detiene la propagación del evento
+    event.stopPropagation();
     console.log('Se clickeó el botón y este es el segundo manejador');
 });
 
